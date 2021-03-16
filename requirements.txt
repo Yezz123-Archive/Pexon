@@ -1,0 +1,8 @@
+#PIP requirements to run main.py & model.py
+pydantic
+pylint
+fastapi
+starlette
+odmantic
+asyncio
+uvicorn[standard]
