@@ -1,0 +1,6 @@
+include setup.cfg
+include LICENSE
+include MANIFEST.in
+include todos.json
+include requirements.txt
+
