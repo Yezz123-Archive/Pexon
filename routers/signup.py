@@ -7,7 +7,7 @@ from model.user import *
 signup_router = APIRouter(tags=["Signup"])
 
 
-@signup_router.post("/",
+@signup_router.post("/Register",
                    status_code=status.HTTP_201_CREATED,
                    response_model=ShowUser)
 async def create_user(request: UserScheme, db: Session = Depends(get_db)):
